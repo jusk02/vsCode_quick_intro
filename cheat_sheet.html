@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>VS code cheat sheet</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="main-title">Guia rapida de VS code</h1>
+      <h2 class="sub-title">sacandole provecho a las herramientas</h2>
+    </header>
+    <div class="content">
+      <div class="entries">
+        <div class="index">
+          <h3 class="index__title">Lista de comandos</h3>
+          <p class="index__text">ver todos los comando abreviados</p>
+          <div class="index__code"><code>CMD + K , CMD + S or CTRL + K , CTRL + S</code></div>
+        </div>
+        <div class="index">
+          <h3 class="index__title">Busquedas importantes</h3>
+          <p class="index__text">Busqueda de archivos</p>
+          <div class="index__code"><code>CMD + P</code></div>
+          <p class="index__text">Busqueda dentro de los archivos</p>
+          <div class="index__code"><code>CMD + F</code></div>
+          <p class="index__text">Busqueda dentro de todos los archivos</p>
+          <div class="index__code"><code>CMD + shift + F</code></div>
+        </div>
+        <div class="index">
+          <h3 class="index__title">Usar Emmet</h3>
+          <p class="index__text">
+            Emmet esta preconfigurado en VS code desde la isntalacion y ayuda a
+            escribir html y sus variaciones como
+            <code>haml, jade, slim, jsx, xml, xsl, css, scss, sass, less</code>
+            y <code>stylus</code>
+          </p>
+          <div class="index__code">
+            <code>
+              .my-div>p.my-text <br /><br />
+              ======> <br />
+              <xmp>
+<div class="my-div">
+  <p class="my-text"></p>
+</div>
+</xmp>
+            </code>
+          </div>
+        </div>
+        <div class="index">
+          <h3 class="index__title">Terminal integrada</h3>
+          <p class="index__text">
+            puede desplegarse arrastrando desde abajo o por comando
+          </p>
+          <div class="index__code"><code>CTRL + `</code></div>
+        </div>
+        <div class="index">
+          <h3 class="index__title">Navegar por definiciones</h3>
+          <p class="index__text">
+            Podemos movernos entre las definiciones y referencias de "funciones"
+            solo dando click derecho y referenciando las opciones
+          </p>
+          <div class="index__code">
+            <code>
+              peek definition<br />
+              go to definition <br />
+              list all references
+            </code>
+          </div>
+        </div>
+        <div class="index">
+          <h3 class="index__title">Intelisence</h3>
+          <p class="index__text">
+            Normalmente funciona de forma automatica, pero tambien se puede
+            llamar por comando
+          </p>
+          <div class="index__code"><code>CTRL + ESPACIADORA</code></div>
+        </div>
+        <div class="index">
+          <h3 class="index__title">Debbuger</h3>
+          <p class="index__text">
+            nos ayuda a chequear valores en nuestros scripts y en general a
+            hacer testing (por defecto funciona con nodeJS pero se pueden
+            configurar mas lenguajes/frameworks)
+          </p>
+        </div>
+        <div class="index">
+          <h3 class="index__title">Integracion con git</h3>
+          <p class="index__text">
+            Provee una interfaz grafica para apoyarnos con GIT
+          </p>
+        </div>
+        <div class="index">
+          <h3 class="index__title">Git lens</h3>
+          <p class="index__text">
+            es un plugin que nos da mucha informacion extra a partir de git,
+            permitiendonos saber quien hizo los cambios y en que momento s
+            ehicieron.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="./logic.js"></script>
+  </body>
+</html>

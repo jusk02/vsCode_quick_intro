@@ -1,0 +1,56 @@
+@import './consts';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin:0;
+  padding: 0;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  background-color: #8466aa;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 1;
+}
+
+.content {
+  padding-top: 40px;
+  max-width: 1200px;
+  width: 70%;
+  display: inline-block;
+  right: 0;
+  left: 0;
+  text-align: left;
+}
+
+.entries {
+  display: flex;
+  flex-direction: column;
+}
+
+.index {
+  border: 1px solid rgb(66, 63, 63);
+  border-radius: 8px;
+  background-color: #6b6aa1;
+  min-width: 500px;
+  width: fit-content;
+  text-align: left;
+  padding: 15px 15px 30px 15px;
+  margin: 15px 0;
+}
+
+.index__code {
+  border: black 1px solid;
+  border-left: black 8px solid;
+  width: fit-content;
+  color: black;
+  padding: 6px 20px 6px 10px;
+  background-color: #cfcfcf;
+}
