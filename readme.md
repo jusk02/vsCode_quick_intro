@@ -6,7 +6,7 @@
 
 ### Contenidos
 
-*1. La lista de comandos.
+1. La lista de comandos.
 
 2. Busquedas extendidas.
 
@@ -22,7 +22,7 @@
 
 8. Integracion y UI de Git.
 
-9. Git Lens.* 
+9. Git Lens.
 
 #### 1. La lista de comandos.
 
