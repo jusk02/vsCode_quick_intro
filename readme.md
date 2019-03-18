@@ -7,13 +7,21 @@
 ### Contenidos
 
 *1. La lista de comandos.
+
 2. Busquedas extendidas.
+
 3. Emmet.
+
 4. Terminal integrada.
+
 5. Navegar por definiciones.
+
 6. Intelisence.
+
 7. Bracket Pair Colorizer.
+
 8. Integracion y UI de Git.
+
 9. Git Lens.* 
 
 #### 1. La lista de comandos.
@@ -66,8 +74,10 @@ Normalmente funciona de forma automatica, y nos da indicios de codigo que podria
 
 #### 7. Bracket Pair Colorizer.
 Es una herramienta para facilitar la verificacion de apertura y cierre de nuestro codigo.
+
 #### 8. Integracion y UI de Git.
 Provee una interfaz grafica para apoyarnos con GIT
+
 #### 9. Git Lens.
 Es un plugin que nos da mucha informacion extra a partir de git, permitiendonos saber quien hizo los cambios y en que momento se hicieron.
 
