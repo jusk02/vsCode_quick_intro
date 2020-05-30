@@ -1,3 +1,8 @@
+const mainLoop = initFunctions => {
+  initFunctions.forEach(initFunction => {
+    initFunction();
+  });
+}
 
 const salute = () => {
   console.log("hello");
@@ -13,11 +18,5 @@ const initFunctions = [
   salute,
   agSalute
 ];
-
-const mainLoop = initFunctions => {
-  initFunctions.forEach(initFunction => {
-    initFunction();
-  });
-}
 
 mainLoop(initFunctions);
